@@ -1,0 +1,326 @@
+
+.card2-holder{
+    width: 250px;
+    height: 375px;
+    position: relative; 
+    margin: 30px;
+
+}
+ 
+
+
+.image2{
+
+    width: 246px;
+    height: 150px;
+    left: calc( 50%  - 123px);
+    top: 2px;
+    position: absolute;
+    background-position: center ;
+    background-image: url(https://th.bing.com/th/id/R.29fd5ae476877ee2304c2ce443c71a6f?rik=3o59EbODkR%2fg%2bQ&pid=ImgRaw&r=0);
+    background-size:cover ;
+    background-repeat: no-repeat ;
+}
+.on-image{
+    width: 30px;
+    height: 30px; 
+    position: relative;
+    top: 5px;
+    left: 210px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+.i-size{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-size: contain;
+    display: inline-block;
+
+}
+.i-heart{
+    width: 20px;
+    height: 20px;
+    /* background-color: teal; */
+    position: absolute;
+    left: calc(50% - 10px );
+    top: calc(50%  - 10px );
+    background-image: url("../icons/icons8-heart-50.png");
+    background-size: contain;
+    display: inline-block;
+}
+.segment1{
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(to left , rgb(249, 250, 250), rgb(226, 226, 226)) ;
+    top: 150px;
+    left: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+.rad-50{
+    border-radius: 50%;
+
+}
+
+.size-s1{
+    width: 50px;
+    height: 50px;
+}
+.img-s1{
+    background-image: url("https://th.bing.com/th/id/OIP.1IZ0q2EKlqHo1UoKP5VwZwHaHT?w=220&h=217&c=7&r=0&o=5&dpr=1.38&pid=1.7");
+    top: 1px;
+    left: 2px; 
+
+}
+.text-s1{
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: -2px;
+    left: 22px ;
+}
+
+.s1phone{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2px;
+    background-color: rgb(127, 221, 127);
+}
+.i-phone{
+    width: 14px;
+    height: 14px;
+    background-image: url("../icons/telephone.svg");
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 7px);
+    left: calc(50% - 7px) ;
+
+
+}
+.segment2{
+    width: 50px;
+    height: 20px;
+    background: linear-gradient(to left , rgb(249, 250, 250), rgb(226, 226, 226)) ;
+    top: 130px;
+    left: 173px;
+    position: relative;
+    border-radius: 10px;
+    /* display: inline-block; */
+    
+}
+.i-net-wrk{
+    background-image: url("../icons/icons8-collaborating-in-circle-24.png");
+    top: calc(50% - 5px);
+    left:calc(50% - 5px) ;
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background-size: contain;
+
+
+}
+.net{
+    background-color: rgb(165, 224, 105);
+    width: 18px;
+    height: 18px;
+    left: 2px;
+    top: calc(50% - 9px );
+    position:absolute;
+}
+.i-unknown{
+
+    background-image: url("../icons/icons8-grapes-58.png");
+    right: 2px;
+}
+.shadow2{
+    /* rigt down radious plur colour */
+    box-shadow: 10px 10px 10px 5px darkgrey;
+}
+.seg3{
+    position: relative;
+    top: 120px;
+    left: 2px;
+    height: 70px;
+
+}
+
+.fs31{
+    font-size: 16px;
+}
+.fsmall-10{
+    font-size: 10px;
+    color: rgb(145, 144, 144);
+    font-variant: small-caps;
+
+}
+
+.fs32{
+    left: 20px;
+    bottom: -5px;
+    position: absolute;
+}
+
+.i-man{
+    background-image: url("../icons/icons8-man-60.png");
+    bottom: 2px;
+}
+
+.seg4{
+    /* background-color: darksalmon; */
+    position: relative;
+    top: 246px;
+    height: 24px;
+    width: 250px;
+}
+.fs4{
+    font-size: 10px;
+    color: rgb(145, 144, 144);
+
+    position: absolute;
+
+}
+.rad4{
+    border-radius: 4px;
+}
+.shadowS4{
+    /* rigt down radious plur colour */
+    box-shadow: 2px 2px 20px 5px darkgrey;
+}
+
+
+.seg41{
+    width: 30px;
+    height: 20px;
+    position: absolute ;
+    top: calc(50% - 10px);
+    left: 10px;
+    
+}
+
+.seg42{
+    width: 50px;
+    height: 20px;
+    position: absolute ;
+    top: calc(50% - 10px);
+    left: calc(50% - 25px);
+
+
+    
+}
+.seg43{
+    width: 50px;
+    height: 20px;
+    position: absolute ;
+    top: calc(50% - 10px);
+    right: 10px ;
+}
+
+.texts4{
+    position: relative ;
+    top: -6px;
+    text-align: center;
+
+}
+
+.seg5{
+    position: relative;
+
+    
+    top: 150px;
+    height: 60px;
+    width: 250px;
+}
+.grad2{
+    background: linear-gradient( to left, rgb(171, 194, 207), rgb(194, 194, 196));
+}
+
+.textS5{
+    text-align: center;
+    font-size: 10px;
+}
+
+.i-bath{
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/icons8-bath-48.png");
+    background-size: contain;
+    display: inline-block;
+
+}
+.seg51{
+    width: 70px;
+    height: 50px;
+    position: relative ;
+    top: calc(50% - 25px) ;
+    left: 10px ;
+}
+
+.seg52{
+    width: 70px;
+    height: 50px;
+    position: absolute ;
+    top: calc(50% - 25px);
+    left: calc(50% - 35px);
+}
+.i-bed{
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/single-bed.svg");
+    background-size: contain;
+    display: inline-block;
+
+
+}
+.seg53{
+    width: 70px;
+    height: 50px;
+    position: absolute ;
+    top: calc(50% - 25px);
+    right: 10px ;
+}
+.i-gas{
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/fuel-bomb-extract-symbol.svg");
+    background-size: contain;
+    display: inline-block;
+}
+
+.seg6{
+    height: 48px;
+    width: 250px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+
+}
+.i-tag{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 86px;
+    top: calc(50%  - 10px );
+    background-image: url("../icons/tag.svg");
+    background-size: contain;
+    /* display: inline-block; */
+
+}
+
+.texts61{
+    font-size: 14px;
+    color: rgb(143, 118, 255);
+}
+
+.texts62{
+    font-size: 10px;
+    position: absolute;
+    top: 7px;
+    left: 150px;   
+}

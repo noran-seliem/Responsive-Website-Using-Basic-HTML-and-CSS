@@ -1,0 +1,63 @@
+
+
+.card1-holder{
+    width: 250px;
+    height: 375px;
+    position: relative;  
+
+    
+}
+
+
+.grad{
+    background: linear-gradient( to right, rgb(210, 223, 231), rgb(199, 199, 241));
+}
+.shadow{
+    /*         rigt down radious plur colour */
+    box-shadow: 5px 10px 20px 10px darkgrey;
+}
+
+.rad20{
+    border-radius: 20px;
+}
+
+.image1{
+
+    width: 246px;
+    height: 100px;
+    position: absolute;
+    /* background-position: center ; */
+    background-image: url(https://th.bing.com/th/id/OIP.GtZLw4Q7bWIeS_vVfnR1eAHaE8?pid=ImgDet&rs=1);
+    background-size:cover ;
+    background-repeat: no-repeat ;
+    left: calc( 50%  - 123px);
+    top: 2px;
+}
+
+.caption{
+    /* background: orangered; */
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    left: calc( 50%  - 110px);
+    top: 100px;
+}
+.fhead{
+    font-family: 'Courier New', Courier, monospace;
+    font: size 10px; 
+
+}
+
+.publish{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(172, 158, 161);
+}
+
+.subject{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: rgb(172, 158, 161);
+
+
+}
